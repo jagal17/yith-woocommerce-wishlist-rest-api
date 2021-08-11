@@ -230,7 +230,7 @@ if( ! class_exists( '\YITH\Wishlist\Rest' ) ) {
 		 * @return true|/WP_Error
 		 */
 		public static function check_auth( $request ){
-
+/**
 			if( is_user_logged_in() ) {
 				return true;
 			}
@@ -239,7 +239,7 @@ if( ! class_exists( '\YITH\Wishlist\Rest' ) ) {
 				'code' => 401,
 				'message' => 'Authentication Required',
 				'data' => [],
-			]);
+			]);*/
 		}
 
 		/**
